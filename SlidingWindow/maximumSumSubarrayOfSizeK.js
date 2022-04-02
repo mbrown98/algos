@@ -12,6 +12,8 @@
 // Output: 7
 // Explanation: Subarray with maximum sum is [3, 4].
 
+// O(N) TC
+// O(1) SC
 const max_sub_array_of_size_k = (k, arr) => {
   let maxSum = 0;
   let windowSum = 0;
